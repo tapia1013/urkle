@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:400,500,600,700|Lato:100,300,400,700,900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+/* font-family: 'Comfortaa', cursive; */
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 10px;
+  color: #292929;
+  background-color: rgba(43, 155, 229, 0.22);
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 1rem 0;
+  align-items: center;
+  
+}
+
+.left-side {
+  display: flex;
+  align-items: center;
+}
+
+.logo-div {
+  margin-right: 2rem;
+}
+
+.logo-div h1 {
+  font-family: 'Comfortaa', cursive;
+  letter-spacing: -3px;
+  font-weight: 700;
+  color: #330eb5;
+  font-size: 2.5rem;
+}
+
+.left-side .l-menu {
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.left-side .l-menu a {
+  color: rgba(0,0,0, 0.7);
+}
+
+.left-side .l-menu a:hover {
+  color: rgba(0,0,0, 1);
+}
+
+.left-side .l-menu .l-a {
+  margin-right: 2rem;
+}
+
+nav {
+  display: flex;
+  font-size: 0.8rem;
+  font-weight: 700;
+  font-size: 0.85rem;
+}
+
+nav a {
+  color: rgba(0,0,0, 0.7);
+  margin: 0 .5rem;
+}
+
+nav a:hover {
+  color: rgba(0,0,0, 1);
+}
+
+nav .r-a:after {
+  content: "";
+  border-right: 1px solid rgba(0,0,0, 0.4);
+  padding-left: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
