@@ -15,7 +15,7 @@ body {
   font-family: 'Lato', sans-serif;
   font-size: 10px;
   color: #292929;
-  background-color: rgba(43, 155, 229, 0.22);
+  /* background-color: rgba(43, 155, 229, 0.22); */
 }
 
 .nav-container {
@@ -26,7 +26,6 @@ body {
   margin: 0 auto;
   padding: 1rem 0;
   align-items: center;
-  
 }
 
 .left-side {
@@ -84,6 +83,162 @@ nav .r-a:after {
   border-right: 1px solid rgba(0,0,0, 0.4);
   padding-left: 1rem;
 }
+
+
+
+
+/* MAIN SECTION */
+.main {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 80%;
+  margin: 4.5rem auto 0;
+}
+
+.main .l-section {
+  margin-left: 2.2rem;
+}
+
+
+.main .l-section .text {
+ padding-left: .5rem;
+ padding-bottom: 3rem;
+}
+
+.main .l-section .text h1 {
+  font-size: 4.5rem;
+  font-weight: 900;
+  color: rgba(0,0,0, 0.75);
+  letter-spacing: 3px;
+}
+
+.main .l-section .input-box {
+  background-color: #fff;
+    display: inline-block;
+    height: 4rem;
+    padding: 1rem;
+    text-align: center;
+    -webkit-box-shadow: 0px 40px 38px -30px rgba(44,46,71,0.7);
+    -moz-box-shadow: 0px 40px 38px -30px rgba(44,46,71,0.7);
+    box-shadow: 0px 40px 38px -30px rgba(44,46,71,0.7);
+    border: 1px solid rgb(238, 238, 238);
+    z-index: 1;
+    border-radius: 5px;
+    width: 112%;
+}
+
+.main .l-section .input-box::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+.main .l-section .input-box .search {
+  float: left;
+  align-items: center;
+  display: flex;
+}
+
+.fa-search, .fa-map-pin {
+  padding-right: 10px;
+}
+
+.main .l-section .input-box .search input[type="text"] {
+  font-size: 1.5rem;
+  outline: none;
+  border: none;
+  text-align: left;
+  color: #7e7e7e;
+}
+
+/* .main .r-section .urkle-div {
+  position: absolute;
+} */
+
+.main .r-section .urkle{
+  width: 35rem;
+  height: 35rem;
+  position: relative;
+  top: -90px;
+  /* right: -672px; */
+  z-index: -999998;
+}
+
+
+.btn {
+    background-color: #4640de;
+  outline: none;
+  border: 5px;
+  max-height: 100%;
+  padding: 2rem 1.5rem;
+  float: right;
+  color: white;
+  font-weight: 700;
+  font-size: 0.6rem;
+  letter-spacing: 1px;
+  z-index: 2;
+  position: relative;
+  top: -44px;
+  border-radius: 5px;
+  right: -15px;
+}
+
+.btn:before{
+  content: "Search";
+  top: -5px;
+  position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
