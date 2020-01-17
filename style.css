@@ -183,6 +183,7 @@ nav .r-a:after {
   top: -44px;
   border-radius: 5px;
   right: -15px;
+  cursor: pointer;
 }
 
 .btn:before{
